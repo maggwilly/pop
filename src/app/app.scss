@@ -1,0 +1,78 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+.btn-default {
+  padding: 16px 3em;
+  font-weight: 700;
+  background-color: white;
+  box-shadow: 0 4px 9px 0 rgba(213,218,224,.3);
+  border-radius: 999em;
+  color: color($colors, danger);
+}
+
+@media only screen and (orientation: landscape)  {
+  .modal-wrapper {
+    position: absolute;
+    top: 0 !important;
+    left: 0 !important;
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+ion-row.no-padder ion-col {
+  padding: 0;
+}
+
+.bg-custom {
+  background-color: color($colors, bg);
+}
+
+.card-custom {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px 0 hsla(205,9%,48%,.14);
+}
+
+.div-img {
+  background-position: center center;
+  background-color: transparent;
+  background-size: cover;
+  &.img-square {
+    height: 0px;
+    padding-bottom: 100%;
+  }
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+// Fix toggle UI issue in @ionic-native/core#4.3.0
+.toggle-ios .toggle-icon {
+  background-color: #e6e6e6;
+}
+
+// Override back button color
+ion-header ion-icon.back-button-icon.icon {
+  color: map-get($colors, danger);
+}
+
+.header-shadow {
+  box-shadow: 0 2px 6px 0 hsla(205,9%,48%,.14);
+}

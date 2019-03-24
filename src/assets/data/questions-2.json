@@ -1,0 +1,415 @@
+[
+    {
+        "flashCardFront": "Pourquoi avons-nous un code de conduite des affaires  professionnelles?",
+        "flashCardFlipped": false,
+        "rate": 0,
+        "amswered": false,
+        "answers": [
+            {
+                "answer": "Pour définir les attentes minimales de Diageo vis-à-vis de nos fournisseurs",
+                "correct": false,
+                "selected": false
+            },
+            {
+                "answer": "Pour définir nos attentes vis-à-vis de tous les employés et de ceux qui représentent ou agissent pour le compte de Diageo, nous informer vers qui se diriger afin d’obtenir de plus amples informations et/ou  d'aide",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Pour couvrir toutes les situations auxquelles nous pouvons être confrontés en tant qu'employés",
+                "correct": false,
+                "selected": false
+            }
+        ]
+    },
+    {
+        "flashCardFront": "En ce qui concerne le conflit d'intérêts, veuillez choisir la bonne réponse:",
+        "flashCardFlipped": false,
+        "rate": 0,
+        "amswered": false,
+        "answers": [
+            {
+                "answer": "Si vous ou un membre de votre famille êtes impliqué dans une relation avec un client, un fournisseur ou un concurrent, cela pourrait entraîner un conflit",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "L'utilisation inappropriée des actifs de l'entreprise ne saurait être considérée comme un conflit d'intérêts",
+                "correct": false,
+                "selected": false
+            },
+            {
+                "answer": "La plupart des conflits peuvent être résolus de manière acceptable pour vous et pour Diageo",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Toujours garder une trace des actions convenues avec votre responsable hiérarchique",
+                "correct": true,
+                "selected": false
+            }
+        ]
+    },
+    {
+        "flashCardFront": "Agir de manière responsable en protégeant les marques de Diageo de la contrefaçon et de la contrebande. Toutes les activités illicites doivent être signalées rapidement à travers:",
+        "flashCardFlipped": false,
+        "rate": 0,
+        "amswered": false,
+        "answers": [
+            {
+                "answer": "Le Site web DrinkIQ",
+                "correct": false,
+                "selected": false
+            },
+            {
+                "answer": "Spot & Stop sur la page Mosaic de Diageo",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Le service juridique ou au contact interne chargé de la protection de nos marques",
+                "correct": true,
+                "selected": false
+            }
+        ]
+    },
+    {
+        "flashCardFront": "Où trouverez-vous la version la plus récente de nos « Global policies and Standards?",
+        "flashCardFlipped": false,
+        "rate": 0,
+        "amswered": false,
+        "answers": [
+            {
+                "answer": "Page mosaïque /Notre code",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Dans le groupe Yammer du CC&E",
+                "correct": false,
+                "selected": false
+            },
+            {
+                "answer": "Dans le code numérique Diageo",
+                "correct": false,
+                "selected": false
+            },
+            {
+                "answer": "Dans les liens de la communication interne adressée à tous les employés",
+                "correct": false,
+                "selected": false
+            }
+        ]
+    },
+    {
+        "flashCardFront": "Les tests obligatoires d'alcootest (MRBT)",
+        "flashCardFlipped": false,
+        "rate": 0,
+        "amswered": false,
+        "answers": [
+            {
+                "answer": "est un test qui permet de détecter le taux de  concentration d'alcool dans le sang d'un employé au moment même du test",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Donne le taux de consommation exact avant que le test ne soit effectué sur un individu",
+                "correct": false,
+                "selected": false
+            },
+            {
+                "answer": "est un test pour s'assurer que tous les consommateurs d'alcool ayant accès dans les locaux de GCSA ne sont pas exposés à un risque ou à un danger potentiel lié à l'alcool",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Ne s'applique pas aux représentants du gouvernement en visite dans notre brasserie",
+                "correct": true,
+                "selected": false
+            }
+        ]
+    },
+    {
+        "flashCardFront": "Parmi les éléments de la liste ci-dessous, choisissez 2 caractéristiques liées à  la politique de la Gestion et de la sécurité de l’information précisément sur la manière dont elle devrait être appliquée :",
+        "flashCardFlipped": false,
+        "rate": 0,
+        "amswered": false,
+        "answers": [
+            {
+                "answer": "Conservez des informations incomplètes et inexactes sur vos activités commerciales à des fins d'archivage",
+                "correct": false,
+                "selected": false
+            },
+            {
+                "answer": "Gardez vos informations organisées, identifiables et accessibles",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Passez régulièrement en revue les informations de l'entreprise pour lesquelles vous êtes responsable afin d'identifier celles dont vous devez vous débarrasser.",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Utilisez uniquement du matériel et des logiciels approuvés par l'équipe de sécurité",
+                "correct": false,
+                "selected": false
+            },
+            {
+                "answer": "Soyez au fait de la «durée de retention juridique»: si pour une quelconque raison vos informations sont nécessaires ou susceptibles d’être l’objet d’un  litige ou enquête, gardez ces informations en toute sécurité et assurez-vous qu'elles ne soient pas modifiée, supprimée, détruites ou même inaccessibles",
+                "correct": true,
+                "selected": false
+            }
+        ]
+    },
+    {
+        "flashCardFront": "A qui incombe la responsabilité première d’un environnement de contrôle satisfaisant?",
+        "flashCardFlipped": false,
+        "rate": 0,
+        "amswered": false,
+        "answers": [
+            {
+                "answer": "L'équipe CC&E",
+                "correct": false,
+                "selected": false
+            },
+            {
+                "answer": "Chaque employé",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "GAR (Global Audit and Risk)",
+                "correct": false,
+                "selected": false
+            },
+            {
+                "answer": "Tout ce qui précède",
+                "correct": false,
+                "selected": false
+            }
+        ]
+    },
+    {
+        "flashCardFront": "Je suis un nouveau responsable hiérarchique et j'ai découvert que j'avais accès aux informations P4G et PTR des membres de mon équipe pour les périodes où je n'étais pas encore leur chef. Devrais-je être tirer profit de ce que je viens de voir?",
+        "flashCardFlipped": false,
+        "rate": 0,
+        "amswered": false,
+        "answers": [
+            {
+                "answer": "Vous ne devriez avoir accès qu'aux informations personnelles nécessaires à votre rôle. Discutez avec votre HRBP pour savoir si vous avez besoin d'accéder à ces données et supprimez tous les accès inutiles.",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Vous ne devriez avoir accès qu'aux informations personnelles nécessaires à votre rôle. Discutez avec votre HRBP pour savoir si vous avez besoin d'accéder à ces données et supprimez tous les accès inutiles.",
+                "correct": false,
+                "selected": false
+            }
+        ]
+    },
+    {
+        "flashCardFront": "Un contrôle efficace est un contrôle qui fonctionne comme définit au préalable et qui réduit tout risque associé à une procédure bien définie :",
+        "flashCardFlipped": false,
+        "rate": 0,
+        "amswered": false,
+        "answers": [
+            {
+                "answer": "Vraie",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Faux",
+                "correct": false,
+                "selected": false
+            }
+        ]
+    },
+    {
+        "flashCardFront": "Quel est le thème de l’édition 2019 du « Pathway of Pride » ?",
+        "flashCardFlipped": false,
+        "rate": 0,
+        "amswered": false,
+        "answers": [
+            {
+                "answer": "Réussir par l’appropriation de nos tâches  sans excuses",
+                "correct": false,
+                "selected": false
+            },
+            {
+                "answer": "Réussir par l’appropriation, Réussir Ensemble",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Sois ta propre Référence",
+                "correct": false,
+                "selected": false
+            }
+        ]
+    },
+    {
+        "flashCardFront": "Vous n'êtes pas sûr, mais vous pensez que votre responsable hiérarchique pourrait faire quelque chose qui n’est pas en conformité avec notre Code de conduite professionnelle. Vous ne vous sentez pas à l'aise d'en discuter avec lui/elle, alors à qui d'autre pourriez-vous en  parler?",
+        "flashCardFlipped": false,
+        "rate": 0,
+        "amswered": false,
+        "answers": [
+            {
+                "answer": "Votre équipe RH locale",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Votre responsable local des contrôles, de la conformité et de l'éthique, ou l'équipe de gestion globale des risques et de la conformité (global.compliance.programme@diageo.com)",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Speak Up - un service confidentiel (par courrier électronique, téléphone ou Internet)",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Le conseiller Juridique interne de GCSA",
+                "correct": true,
+                "selected": false
+            }
+        ]
+    },
+    {
+        "flashCardFront": "Nous attendons de nos partenaires commerciaux qu'ils appliquent les mêmes principes fondamentaux dans leurs opérations quotidiennes que ceux définit dans notre Code de conduite professionnelle. Lesquels des principes suivants devraient-ils appliquer?",
+        "flashCardFlipped": false,
+        "rate": 0,
+        "amswered": false,
+        "answers": [
+            {
+                "answer": "Se conformer à toutes les lois, réglementations et normes en vigueur",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Protéger les droits de l'homme et les normes fondamentales du travail",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Adopter une approche de tolérance zéro à l'égard de la corruption, de quelle forme qu’elle soit",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Offrir à tous leurs employés un bonus annuel",
+                "correct": false,
+                "selected": false
+            }
+        ]
+    },
+    {
+        "flashCardFront": "Parmi les éléments suivants, qui sont ceux considérés comme les officiels du Gouvernements?",
+        "flashCardFlipped": false,
+        "rate": 0,
+        "amswered": false,
+        "answers": [
+            {
+                "answer": "La Reine",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Un officier de la marine",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Un policier",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Le membre d’un parti politique officiellement reconnu",
+                "correct": true,
+                "selected": false
+            }
+        ]
+    },
+    {
+        "flashCardFront": "Quel est votre rôle dans la prévention des chutes, des trébuchements à Diageo?",
+        "flashCardFlipped": false,
+        "rate": 0,
+        "amswered": false,
+        "answers": [
+            {
+                "answer": "Marcher sur les voies tracées pour les piétons",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Soyez vigilant face aux sols trempés / dégradés ou tout autre risque de trébuchement",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Ne vous approchez pas de près - si vous constatez un glissement de sol (par exemple, si un revêtement de sol lâche, ou si vous renversez votre café sur le sol), signalez-le dans les plus brefs délais",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Aucun des éléments ci-dessus cités",
+                "correct": false,
+                "selected": false
+            }
+        ]
+    },
+    {
+        "flashCardFront": "L'employé devrait-il garder une traçabilité  des cadeaux et divertissements qu'il donne ou reçoit des tiers, ainsi que des offres que nous avons faites et qui ont été refusées?",
+        "flashCardFlipped": false,
+        "rate": 0,
+        "amswered": false,
+        "answers": [
+            {
+                "answer": "Oui, nous devrions toujours garder à l'esprit que tous les cadeaux et Loisirs doivent être enregistrés via la plate-forme Diageo, y compris ceux qui ont été refusés.",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Non, pas besoin d'enregistrer, personne ne le saura de toute façon",
+                "correct": true,
+                "selected": false
+            }
+        ]
+    },
+    {
+        "flashCardFront": "Je suis un membre du personnel de l’entreprise et lors de la marche de visite du site, j’ai remarqué un camion sur le quai de chargement avec la clé laissée sur le contact sans conducteur à son bord; Quelle (s) option (s) choisirez-vous?",
+        "flashCardFlipped": false,
+        "rate": 0,
+        "amswered": false,
+        "answers": [
+            {
+                "answer": "Retirer la clé immédiatement",
+                "correct": false,
+                "selected": false
+            },
+            {
+                "answer": "Appelez le responsable de la circulation en charge de la gestion du trafic dans le site",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Parlez d'abord à la sécurité, puis informez l'équipe du CC&E",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Informer le responsable santé et sécurité",
+                "correct": true,
+                "selected": false
+            },
+            {
+                "answer": "Aucune de ce qui précède étant donné que cela ne fait pas partie de ma conversation P4G (mon évaluation)",
+                "correct": false,
+                "selected": false
+            }
+        ]
+    }
+]

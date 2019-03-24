@@ -1,0 +1,61 @@
+<ion-header no-border no-shadow>
+        <ion-navbar [hideBackButton]="!hasAnswered" >
+          <ion-title>
+              <span *ngIf="!slides.isEnd()">Question {{activeIndex+1}}</span>
+            <span *ngIf="slides.isEnd()">Votre Score</span>
+        </ion-title>
+        </ion-navbar>
+   <div class="progess-bar" *ngIf="!slides.isEnd()" [hidden]="hasAnswered">
+       <div class="progression" [style.width.%]="displayTime">
+
+       </div>
+    </div>
+ </ion-header>
+ <ion-content padding>
+    <ion-slides #slides (ionSlideDidChange)="ionSlideDidChange()">
+        <ion-slide *ngFor="let question of questions; let i = index;">
+            <h3></h3>
+            <ion-card class="question-text">
+              <ion-card-content >
+                 <h2>{{question.flashCardFront}}</h2> 
+              </ion-card-content>
+
+            </ion-card>
+
+            <h3>{{question.questionText}}</h3>
+
+            <ion-list no-lines radio-group inset>
+                <ion-item *ngFor="let answer of question.answers; let i = index;" text-wrap>
+                    <ion-label *ngIf="hasAnswered" [ngClass]="{'wrong':  ((answer.correct&&!answer.selected)||(!answer.correct&&answer.selected)), 'correct': ((answer.correct&&answer.selected)||(!answer.correct&&!answer.selected))}">
+                            {{i+1}}. {{answer.answer}}
+                    </ion-label>
+                    <ion-label *ngIf="!hasAnswered">
+                        {{i+1}}. {{answer.answer}}
+                    </ion-label>
+                    <ion-checkbox  [hidden]="question.amswered||hasAnswered" [(ngModel)]="answer.selected" color="dark" (ionChange)="rating(question)" ></ion-checkbox>
+                </ion-item>
+            </ion-list>
+      
+        </ion-slide>
+        <ion-slide>
+                <div class="progress-wrapper" [hidden]="!hasAnswered">
+                        <div class="progress">
+                                {{humaniseScore()}} %
+                        </div>  
+                        <ion-grid style="height: 100%">
+                                <ion-row justify-content-center align-items-center style="height: 100%">
+                                        <round-progress [current]="score" [max]="max" [color]="dataService.colorScore(humaniseScore(),2)" [background]="'#eaeaea'" [animation]="'easeInOutQuart'"></round-progress>
+                                </ion-row>
+                              </ion-grid>                          
+                   </div>
+            <div padding [hidden]="!hasAnswered">
+            <button  (click)="restartQuiz()" ion-button block color="primary">Revoir mon parcours</button>
+                <br>
+            <button  (click)="end()" ion-button block color="danger">Terminer</button>
+        </div>
+        </ion-slide>
+    </ion-slides>
+    <ion-fab right bottom *ngIf="!slides.isEnd()">
+            <button ion-fab color="primary" (click)="nextSlide()"><ion-icon name="arrow-dropright"></ion-icon></button> 
+    </ion-fab>  
+</ion-content>

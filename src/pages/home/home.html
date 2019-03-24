@@ -1,0 +1,23 @@
+<ion-header no-border no-shadow>
+    <ion-navbar>
+        <ion-title>Accueil</ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only (click)="openClassement()"><ion-icon name="funnel"></ion-icon></button>
+            <button ion-button icon-only (click)="openStats()"><ion-icon name="pulse"></ion-icon></button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+<ion-content >
+    <ion-searchbar color="primary"
+    [(ngModel)]="queryText"
+    (ionInput)="search()"
+    placeholder="Recherchez un nom">
+    </ion-searchbar> 
+    <ion-list>
+    <ion-item  *ngFor="let employer of employers" (click)="startQuiz(employer)" [hidden]="employer.hide">
+    <h2>{{employer.name}}</h2>
+    <h3>{{employer.position}}</h3>
+    <ion-badge item-end *ngIf="employer.score" [color]="dataService.colorScore(employer.score)">{{employer.score}}</ion-badge>
+    </ion-item>
+    </ion-list>    
+</ion-content>

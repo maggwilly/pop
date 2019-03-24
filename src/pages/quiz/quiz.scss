@@ -1,0 +1,62 @@
+.ios, .md {
+
+    page-quiz {
+        ion-slides { height: auto; }
+        .question-text{ 
+            height: 30%;
+            line-height: 20px;
+            font-size: 1.8em;
+        }
+        .question-text p{ vertical-align:middle; }
+        .progess-bar{
+            height: 6px;
+            width:100%;
+            background-color: map-get($colors, light);
+        }
+        .progression{
+            height: 100%;
+            background-color: map-get($colors, orange);
+             width:50%;
+        }
+        .correct {
+            color:map-get($colors, secondary);
+          }
+      
+          .wrong  {
+            color: map-get($colors, danger);
+            text-decoration: line-through;
+      }
+        ion-item {
+            margin-bottom: 5px;
+            font-size: 1.9em;
+            //background-color: map-get($colors, primary);
+        }
+
+
+        .start-slide {
+            justify-content: center;
+            align-items: center;
+            button {
+                font-size: 1.3em;
+                font-weight: bold;
+            }
+        }
+        .progress-wrapper{
+            position: relative;
+            align-items: center;
+            font-size: 21px;
+            height: 30%;
+        }
+        .progress{
+            position: absolute;
+            justify-content: space-around;
+            width: 100%;
+            height: 100%;
+            line-height: 9em;
+            font-size:1.2em;
+            text-align: center;
+            font-weight: 100;
+        }
+    }
+
+}
